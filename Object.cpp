@@ -3,9 +3,15 @@
 // Constructors/Destructors
 //  
 
-Object::Object () {
-initAttributes();
+
+Object::Object (string name , Point pos, Vector speed, bool visible)
+{
+	this->set_name(name);
+	this->set_position(pos);
+	this->set_speed(speed);
+	this->set_visible(visible);
 }
+
 
 Object::~Object () { }
 

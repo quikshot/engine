@@ -98,6 +98,7 @@ public:
      */
     void add (Object obj)
     {
+        _objectList.push_back(obj);
     }
 
 
@@ -106,8 +107,11 @@ public:
      */
     void remove (Object obj)
     {
+       // _objectList.push_back(obj);
     }
 
+    void describeWorld();
+    
 protected:
 
     // Static Protected attributes

@@ -97,6 +97,8 @@ public:
      */
      Vector (Point origin, Point destination)
     {
+        this->origin = origin;
+        this->destination = destination;
     }
 
 protected:

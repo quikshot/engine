@@ -70,7 +70,7 @@ public:
     /**
      * Empty Constructor
      */
-    Object ();
+    Object (string name = "default", Point pos = Point(0.0,0.0), Vector speed=Vector(Point(0.0,0.0),Point(0.0,0.0)), bool visible=false);
 
     /**
      * Empty Destructor
